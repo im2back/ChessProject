@@ -3,6 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+import boardgame.Board;
 import boardgame.Position;
 
 public class Program {
@@ -10,12 +11,7 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
-Position position = new Position(4, 3);
-		
-		
-	System.out.println(position);	
-
+Board board = new Board(8,8);
 	}
 
 }
